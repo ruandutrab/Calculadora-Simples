@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="_css/stylo.css">
+    <script src="_js/scripts.js"></script>
+</head>
+<body>
+    <div class="interface">
+        <div id="display">
+            <p id="numDisp">
+    
+            </p>
+        </div>
+        <form name="calc"></form>
+            <button onclick="salvarHi()" id="keytopo">HI</button>
+            <button onclick="Reclama()" id="keytopo">Recc</button>
+            <input type="button" id="keytopo" value="C" onclick="botao(this.value)">
+            <input type="button" id="keytopo" value="/" onclick="botao(this.value)">
+        </br>    
+            <input type="button" value="7" id="key" onclick="botao(this.value)">     
+            <input type="button" value="8" id="key" onclick="botao(this.value)"> 
+            <input type="button" value="9" id="key" onclick="botao(this.value)"> <input type="button" value="*" id="key" onclick="botao(this.value)">
+        </br>
+            <input type="button" value="4" id="key" onclick="botao(this.value)">
+            <input type="button" value="5" id="key" onclick="botao(this.value)">
+            <input type="button" value="6" id="key" onclick="botao(this.value)"> <input type="button" value="-" id="key" onclick="botao(this.value)">
+        </br>
+            <input type="button" value="1" id="key" onclick="botao(this.value)">
+            <input type="button" value="2" id="key" onclick="botao(this.value)">
+            <input type="button" value="3" id="key" onclick="botao(this.value)"> <input type="button" value="+" id="key" onclick="botao(this.value)">
+        </br>
+            <input type="button" value="0" id="key0" onclick="botao(this.value)">
+            <input type="button" value="," id="keyvirg" onclick="botao(this.value)"> 
+             <button id="keyigual" onclick="verif()">=</button>
+        </form>
+    </div>    
+</body>
+</html>
